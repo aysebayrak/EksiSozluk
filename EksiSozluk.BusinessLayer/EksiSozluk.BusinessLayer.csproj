@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EksiSozluk.DataAccessLayer\EksiSozluk.DataAccessLayer.csproj" />
+    <ProjectReference Include="..\EksiSozluk.EntityLayer\EksiSozluk.EntityLayer.csproj" />
+  </ItemGroup>
+
+</Project>

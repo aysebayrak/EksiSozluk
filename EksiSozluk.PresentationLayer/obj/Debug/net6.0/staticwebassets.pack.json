@@ -1,0 +1,569 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\EksiSozluk.PresentationLayer.bundle.scp.css",
+      "PackagePath": "staticwebassets\\EksiSozluk.PresentationLayer.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\basliklar\\debe.html",
+      "PackagePath": "staticwebassets\\EksiSözlük\\basliklar\\debe.html"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\basliklar\\iliskiler.html",
+      "PackagePath": "staticwebassets\\EksiSözlük\\basliklar\\iliskiler.html"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\basliklar\\siyaset.html",
+      "PackagePath": "staticwebassets\\EksiSözlük\\basliklar\\siyaset.html"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\basliklar\\sorunsallar.html",
+      "PackagePath": "staticwebassets\\EksiSözlük\\basliklar\\sorunsallar.html"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\basliklar\\spor.html",
+      "PackagePath": "staticwebassets\\EksiSözlük\\basliklar\\spor.html"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\bootstrap\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\EksiSözlük\\bootstrap\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\bootstrap\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\EksiSözlük\\bootstrap\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\bootstrap\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\EksiSözlük\\bootstrap\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\bootstrap\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\EksiSözlük\\bootstrap\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\bootstrap\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\EksiSözlük\\bootstrap\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\bootstrap\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\EksiSözlük\\bootstrap\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\bootstrap\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\EksiSözlük\\bootstrap\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\EksiSözlük\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\bootstrap\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\EksiSözlük\\bootstrap\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\bootstrap\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\EksiSözlük\\bootstrap\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\EksiSözlük\\bootstrap\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\bootstrap\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\EksiSözlük\\bootstrap\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\bootstrap\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\EksiSözlük\\bootstrap\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\bootstrap\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\EksiSözlük\\bootstrap\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\bootstrap\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\EksiSözlük\\bootstrap\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\EksiSözlük\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\bootstrap\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\EksiSözlük\\bootstrap\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\bootstrap\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\EksiSözlük\\bootstrap\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\bootstrap\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\EksiSözlük\\bootstrap\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\bootstrap\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\EksiSözlük\\bootstrap\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\bootstrap\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\EksiSözlük\\bootstrap\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\bootstrap\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\EksiSözlük\\bootstrap\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\bootstrap\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\EksiSözlük\\bootstrap\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\EksiSözlük\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\bootstrap\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\EksiSözlük\\bootstrap\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\bootstrap\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\EksiSözlük\\bootstrap\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\EksiSözlük\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\bootstrap\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\EksiSözlük\\bootstrap\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\bootstrap\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\EksiSözlük\\bootstrap\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\bootstrap\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\EksiSözlük\\bootstrap\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\bootstrap\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\EksiSözlük\\bootstrap\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\bootstrap\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\EksiSözlük\\bootstrap\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\bootstrap\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\EksiSözlük\\bootstrap\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\bootstrap\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\EksiSözlük\\bootstrap\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\EksiSözlük\\bootstrap\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\bootstrap\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\EksiSözlük\\bootstrap\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\bootstrap\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\EksiSözlük\\bootstrap\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\bootstrap\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\EksiSözlük\\bootstrap\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\bootstrap\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\EksiSözlük\\bootstrap\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\bootstrap\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\EksiSözlük\\bootstrap\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\bootstrap\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\EksiSözlük\\bootstrap\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\bootstrap\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\EksiSözlük\\bootstrap\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\EksiSözlük\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\bootstrap\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\EksiSözlük\\bootstrap\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\giris.html",
+      "PackagePath": "staticwebassets\\EksiSözlük\\giris.html"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\img\\Adsız.png",
+      "PackagePath": "staticwebassets\\EksiSözlük\\img\\Adsız.png"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\img\\altreklamjpg.jpg",
+      "PackagePath": "staticwebassets\\EksiSözlük\\img\\altreklamjpg.jpg"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\img\\arkaplan1png.png",
+      "PackagePath": "staticwebassets\\EksiSözlük\\img\\arkaplan1png.png"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\img\\ben.jpeg",
+      "PackagePath": "staticwebassets\\EksiSözlük\\img\\ben.jpeg"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\img\\eksiseyler.jpg",
+      "PackagePath": "staticwebassets\\EksiSözlük\\img\\eksiseyler.jpg"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\img\\eksiseyler.png",
+      "PackagePath": "staticwebassets\\EksiSözlük\\img\\eksiseyler.png"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\img\\eksiseylerlogopng.png",
+      "PackagePath": "staticwebassets\\EksiSözlük\\img\\eksiseylerlogopng.png"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\img\\eksisozluk_logo.svg",
+      "PackagePath": "staticwebassets\\EksiSözlük\\img\\eksisozluk_logo.svg"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\img\\eksisozluklogo.jpg",
+      "PackagePath": "staticwebassets\\EksiSözlük\\img\\eksisozluklogo.jpg"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\img\\eksisözlükpng.png",
+      "PackagePath": "staticwebassets\\EksiSözlük\\img\\eksisözlükpng.png"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\img\\footer.png",
+      "PackagePath": "staticwebassets\\EksiSözlük\\img\\footer.png"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\img\\gozluk.png",
+      "PackagePath": "staticwebassets\\EksiSözlük\\img\\gozluk.png"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\img\\logo.png",
+      "PackagePath": "staticwebassets\\EksiSözlük\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\img\\message.png",
+      "PackagePath": "staticwebassets\\EksiSözlük\\img\\message.png"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\img\\penalogo.png",
+      "PackagePath": "staticwebassets\\EksiSözlük\\img\\penalogo.png"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\img\\reklam1.png",
+      "PackagePath": "staticwebassets\\EksiSözlük\\img\\reklam1.png"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\img\\reklam2.png",
+      "PackagePath": "staticwebassets\\EksiSözlük\\img\\reklam2.png"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\img\\rozet.jpg",
+      "PackagePath": "staticwebassets\\EksiSözlük\\img\\rozet.jpg"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\img\\sosyal.jpg",
+      "PackagePath": "staticwebassets\\EksiSözlük\\img\\sosyal.jpg"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\img\\tarih.jpg",
+      "PackagePath": "staticwebassets\\EksiSözlük\\img\\tarih.jpg"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\img\\user.svg",
+      "PackagePath": "staticwebassets\\EksiSözlük\\img\\user.svg"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\index.html",
+      "PackagePath": "staticwebassets\\EksiSözlük\\index.html"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\jquery-3.7.0.min.js",
+      "PackagePath": "staticwebassets\\EksiSözlük\\jquery-3.7.0.min.js"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\kayit.html",
+      "PackagePath": "staticwebassets\\EksiSözlük\\kayit.html"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\kit.fontawesome.com_91bd71ff2c.js",
+      "PackagePath": "staticwebassets\\EksiSözlük\\kit.fontawesome.com_91bd71ff2c.js"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\style.css",
+      "PackagePath": "staticwebassets\\EksiSözlük\\style.css"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.EksiSozluk.PresentationLayer.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.EksiSozluk.PresentationLayer.props",
+      "PackagePath": "build\\EksiSozluk.PresentationLayer.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.EksiSozluk.PresentationLayer.props",
+      "PackagePath": "buildMultiTargeting\\EksiSozluk.PresentationLayer.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.EksiSozluk.PresentationLayer.props",
+      "PackagePath": "buildTransitive\\EksiSozluk.PresentationLayer.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

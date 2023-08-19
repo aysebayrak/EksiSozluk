@@ -1,0 +1,80 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_EksiSozluk.cshtml";
+}
+<div class="Right-side">
+    <div class="form-container" id="login-form-container">
+        <h1>giriş</h1>
+
+        <form action="/giris" method="post" novalidate="novalidate">
+            <input name="__RequestVerificationToken"
+                   type="hidden"
+                   value="AHibX_CDQt6vf9xhnwLq6t7lzhpnk_Fqh5oLJ6WI9GOM2LCMMWqgWEsZlYwaNdG6OoNw4Ipv4LPwfGROqb5zCGfls14fFfFrUIV35eu5hyg1" />
+            <fieldset class="verticall">
+                <input id="ReturnUrl"
+                       name="ReturnUrl"
+                       type="hidden"
+                       value="https://eksisozluk.com/kayit" />
+                <span class="field-validation-valid"
+                      data-valmsg-for="Status"
+                      data-valmsg-replace="true"></span>
+                <div>
+                    <label for="UserName">e-mail adresi</label><br />
+                    <input autofocus="autofocus"
+                           data-val="true"
+                           data-val-length="The field e-mail adresi must be a string with a maximum length of 50."
+                           data-val-length-max="50"
+                           data-val-required="kullanıcı adı boş olamaz"
+                           id="username"
+                           maxlength="130"
+                           name="UserName"
+                           type="text"
+                           value=""
+                           autocapitalize="off"
+                           autocorrect="off" />
+                    <span class="field-validation-valid"
+                          data-valmsg-for="UserName"
+                          data-valmsg-replace="true"></span>
+                </div>
+                <div>
+                    <label for="Password">şifre</label><br />
+                    <input data-val="true"
+                           data-val-length="The field şifre must be a string with a maximum length of 50."
+                           data-val-length-max="50"
+                           data-val-required="şifre boş olamaz"
+                           id="password"
+                           maxlength="50"
+                           name="Password"
+                           type="password" />
+                    <span class="field-validation-valid"
+                          data-valmsg-for="Password"
+                          data-valmsg-replace="true"></span>
+                </div>
+                <div>
+                    <label class="checkbox">
+                        <input data-val="true"
+                               data-val-required="The unutma bunları sorucam sonra field is required."
+                               id="RememberMe"
+                               name="RememberMe"
+                               type="checkbox"
+                               value="true" /><input name="RememberMe" type="hidden" value="false" />
+                        unutma bunları sorucam sonra
+                    </label>
+                </div>
+                <div class="actions">
+                    <button type="submit" class="btn btn-primary btn-lg btn-block">
+                        giriş yapmaya çabala
+                    </button>
+                </div>
+            </fieldset>
+        </form>
+        <h1>giremeyiş</h1>
+        <ul>
+            <li><a href="/sifre-sifirla">şifremi unuttum</a></li>
+            <li><a href="/kayit">kayıtlı kullanıcı olunası</a></li>
+        </ul>
+    </div>
+
+  
+</div>

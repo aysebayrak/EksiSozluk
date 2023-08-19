@@ -1,0 +1,17 @@
+C:\projeler_ab\EksiSozluk\EksiSozluk.BusinessLayer\bin\Debug\net6.0\EksiSozluk.BusinessLayer.deps.json
+C:\projeler_ab\EksiSozluk\EksiSozluk.BusinessLayer\bin\Debug\net6.0\EksiSozluk.BusinessLayer.dll
+C:\projeler_ab\EksiSozluk\EksiSozluk.BusinessLayer\bin\Debug\net6.0\EksiSozluk.BusinessLayer.pdb
+C:\projeler_ab\EksiSozluk\EksiSozluk.BusinessLayer\obj\Debug\net6.0\EksiSozluk.BusinessLayer.csproj.AssemblyReference.cache
+C:\projeler_ab\EksiSozluk\EksiSozluk.BusinessLayer\obj\Debug\net6.0\EksiSozluk.BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\projeler_ab\EksiSozluk\EksiSozluk.BusinessLayer\obj\Debug\net6.0\EksiSozluk.BusinessLayer.AssemblyInfoInputs.cache
+C:\projeler_ab\EksiSozluk\EksiSozluk.BusinessLayer\obj\Debug\net6.0\EksiSozluk.BusinessLayer.AssemblyInfo.cs
+C:\projeler_ab\EksiSozluk\EksiSozluk.BusinessLayer\obj\Debug\net6.0\EksiSozluk.BusinessLayer.csproj.CoreCompileInputs.cache
+C:\projeler_ab\EksiSozluk\EksiSozluk.BusinessLayer\obj\Debug\net6.0\EksiSozluk.BusinessLayer.dll
+C:\projeler_ab\EksiSozluk\EksiSozluk.BusinessLayer\obj\Debug\net6.0\refint\EksiSozluk.BusinessLayer.dll
+C:\projeler_ab\EksiSozluk\EksiSozluk.BusinessLayer\obj\Debug\net6.0\EksiSozluk.BusinessLayer.pdb
+C:\projeler_ab\EksiSozluk\EksiSozluk.BusinessLayer\obj\Debug\net6.0\ref\EksiSozluk.BusinessLayer.dll
+C:\projeler_ab\EksiSozluk\EksiSozluk.BusinessLayer\bin\Debug\net6.0\EksiSozluk.DataAccessLayer.dll
+C:\projeler_ab\EksiSozluk\EksiSozluk.BusinessLayer\bin\Debug\net6.0\EksiSozluk.EntityLayer.dll
+C:\projeler_ab\EksiSozluk\EksiSozluk.BusinessLayer\bin\Debug\net6.0\EksiSozluk.DataAccessLayer.pdb
+C:\projeler_ab\EksiSozluk\EksiSozluk.BusinessLayer\bin\Debug\net6.0\EksiSozluk.EntityLayer.pdb
+C:\projeler_ab\EksiSozluk\EksiSozluk.BusinessLayer\obj\Debug\net6.0\EksiSozluk.BusinessLayer.csproj.CopyComplete

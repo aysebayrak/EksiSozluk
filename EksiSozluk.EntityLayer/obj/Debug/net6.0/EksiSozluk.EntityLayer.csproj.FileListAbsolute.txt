@@ -1,0 +1,12 @@
+C:\projeler_ab\EksiSozluk\EksiSozluk.EntityLayer\bin\Debug\net6.0\EksiSozluk.EntityLayer.deps.json
+C:\projeler_ab\EksiSozluk\EksiSozluk.EntityLayer\bin\Debug\net6.0\EksiSozluk.EntityLayer.dll
+C:\projeler_ab\EksiSozluk\EksiSozluk.EntityLayer\bin\Debug\net6.0\EksiSozluk.EntityLayer.pdb
+C:\projeler_ab\EksiSozluk\EksiSozluk.EntityLayer\obj\Debug\net6.0\EksiSozluk.EntityLayer.csproj.AssemblyReference.cache
+C:\projeler_ab\EksiSozluk\EksiSozluk.EntityLayer\obj\Debug\net6.0\EksiSozluk.EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\projeler_ab\EksiSozluk\EksiSozluk.EntityLayer\obj\Debug\net6.0\EksiSozluk.EntityLayer.AssemblyInfoInputs.cache
+C:\projeler_ab\EksiSozluk\EksiSozluk.EntityLayer\obj\Debug\net6.0\EksiSozluk.EntityLayer.AssemblyInfo.cs
+C:\projeler_ab\EksiSozluk\EksiSozluk.EntityLayer\obj\Debug\net6.0\EksiSozluk.EntityLayer.csproj.CoreCompileInputs.cache
+C:\projeler_ab\EksiSozluk\EksiSozluk.EntityLayer\obj\Debug\net6.0\EksiSozluk.EntityLayer.dll
+C:\projeler_ab\EksiSozluk\EksiSozluk.EntityLayer\obj\Debug\net6.0\refint\EksiSozluk.EntityLayer.dll
+C:\projeler_ab\EksiSozluk\EksiSozluk.EntityLayer\obj\Debug\net6.0\EksiSozluk.EntityLayer.pdb
+C:\projeler_ab\EksiSozluk\EksiSozluk.EntityLayer\obj\Debug\net6.0\ref\EksiSozluk.EntityLayer.dll

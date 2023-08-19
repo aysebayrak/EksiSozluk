@@ -1,0 +1,17 @@
+C:\projeler_ab\EksiSozluk\EksiSozluk.DataAccessLayer\bin\Debug\net6.0\EksiSozluk.DataAccessLayer.deps.json
+C:\projeler_ab\EksiSozluk\EksiSozluk.DataAccessLayer\bin\Debug\net6.0\EksiSozluk.DataAccessLayer.runtimeconfig.json
+C:\projeler_ab\EksiSozluk\EksiSozluk.DataAccessLayer\bin\Debug\net6.0\EksiSozluk.DataAccessLayer.dll
+C:\projeler_ab\EksiSozluk\EksiSozluk.DataAccessLayer\bin\Debug\net6.0\EksiSozluk.DataAccessLayer.pdb
+C:\projeler_ab\EksiSozluk\EksiSozluk.DataAccessLayer\bin\Debug\net6.0\EksiSozluk.EntityLayer.dll
+C:\projeler_ab\EksiSozluk\EksiSozluk.DataAccessLayer\bin\Debug\net6.0\EksiSozluk.EntityLayer.pdb
+C:\projeler_ab\EksiSozluk\EksiSozluk.DataAccessLayer\obj\Debug\net6.0\EksiSozluk.DataAccessLayer.csproj.AssemblyReference.cache
+C:\projeler_ab\EksiSozluk\EksiSozluk.DataAccessLayer\obj\Debug\net6.0\EksiSozluk.DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\projeler_ab\EksiSozluk\EksiSozluk.DataAccessLayer\obj\Debug\net6.0\EksiSozluk.DataAccessLayer.AssemblyInfoInputs.cache
+C:\projeler_ab\EksiSozluk\EksiSozluk.DataAccessLayer\obj\Debug\net6.0\EksiSozluk.DataAccessLayer.AssemblyInfo.cs
+C:\projeler_ab\EksiSozluk\EksiSozluk.DataAccessLayer\obj\Debug\net6.0\EksiSozluk.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\projeler_ab\EksiSozluk\EksiSozluk.DataAccessLayer\obj\Debug\net6.0\EksiSozluk.DataAccessLayer.csproj.CopyComplete
+C:\projeler_ab\EksiSozluk\EksiSozluk.DataAccessLayer\obj\Debug\net6.0\EksiSozluk.DataAccessLayer.dll
+C:\projeler_ab\EksiSozluk\EksiSozluk.DataAccessLayer\obj\Debug\net6.0\refint\EksiSozluk.DataAccessLayer.dll
+C:\projeler_ab\EksiSozluk\EksiSozluk.DataAccessLayer\obj\Debug\net6.0\EksiSozluk.DataAccessLayer.pdb
+C:\projeler_ab\EksiSozluk\EksiSozluk.DataAccessLayer\obj\Debug\net6.0\EksiSozluk.DataAccessLayer.genruntimeconfig.cache
+C:\projeler_ab\EksiSozluk\EksiSozluk.DataAccessLayer\obj\Debug\net6.0\ref\EksiSozluk.DataAccessLayer.dll
