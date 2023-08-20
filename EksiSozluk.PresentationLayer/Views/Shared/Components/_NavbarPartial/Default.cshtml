@@ -1,151 +1,15 @@
-﻿<header class="">
-    <nav class="navbar navbar-expand-lg bg-white">
-        <div class="container-fluid header-top">
-            <a class="navbar-brand me-5 ms-3" href="index.html">
-                <img class="logo"
-                     src="~/eksisözlük/img/eksisozluk_logo.svg"
-                     alt="" />
-            </a>
-            <button class="navbar-toggler"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <form class="d-flex form_action" role="search">
-                    <div class="input-group ">
-                        <input type="search"
-                               class="form-control "
-                               placeholder="baslık,#entry,yazar"
-                               aria-label="Search"
-                               aria-describedby="search-addon" />
-                        <a id="a3-toggle" href="#" accesskey="a">&nbsp;</a>
-                        <button type="button" class="btn btn-outline-primary">
-                            <i class="fas fa-search arama"></i>
-                        </button>
-                    </div>
-                </form>
-                <form action="/basliklar/ara"
-                      class="vertical "
-                      id="advanced-search-form"
-                      method="get"
-                      role="search"
-                      novalidate="novalidate">
-                    <div>
-                        <label class="mb-2" for="SearchForm_Keywords">kelimeler</label><br />
-                        <input class="w-75"
-                               id="SearchForm_Keywords"
-                               name="SearchForm.Keywords"
-                               type="text"
-                               value=""
-                               autocapitalize="off"
-                               autocorrect="off" />
-                    </div>
-                    <div>
-                        <label class="mb-2" for="SearchForm_Author">yazar</label><br />
-                        <input autocomplete="off"
-                               class="nickpicker ui-autocomplete-input mb-2 w-75"
-                               id="SearchForm_Author"
-                               maxlength="40"
-                               name="SearchForm.Author"
-                               placeholder=""
-                               type="text"
-                               value=""
-                               autocapitalize="off"
-                               autocorrect="off" />
-                    </div>
-                    <div class="w-75">
-                        <label class="mb-2" for="SearchForm_When_From">ne zaman</label><br />
-                        <span class="daterange w-100">
-                            <input data-val="true"
-                                   data-val-date="The field From must be a date."
-                                   id="SearchForm_When_From"
-                                   name="SearchForm.When.From"
-                                   type="date"
-                                   value="" />
+﻿@model List<EksiSozluk.EntityLayer.Concrete.Category>
 
-                            <input class="mb-2"
-                                   data-val="true"
-                                   data-val-date="The field To must be a date."
-                                   id="SearchForm_When_To"
-                                   name="SearchForm.When.To"
-                                   type="date"
-                                   value="" />
-
-                            <span class="field-validation-valid"
-                                  data-valmsg-for="SearchForm.When.From"
-                                  data-valmsg-replace="true"></span>
-                            <span class="field-validation-valid"
-                                  data-valmsg-for="SearchForm.When.To"
-                                  data-valmsg-replace="true"></span>
-                        </span>
-                    </div>
-                    <div>
-                        <div class="checkbox">
-                            <input data-val="true"
-                                   data-val-required="The güzelinden olsun field is required."
-                                   id="SearchForm_NiceOnly"
-                                   name="SearchForm.NiceOnly"
-                                   type="checkbox"
-                                   value="true" /><input name="SearchForm.NiceOnly"
-                                                         type="hidden"
-                                                         value="false" />
-                            <label class="mb-2" for="SearchForm_NiceOnly">güzelinden olsun</label><br />
-                        </div>
-                        <span class="field-validation-valid"
-                              data-valmsg-for="SearchForm.NiceOnly"
-                              data-valmsg-replace="true"></span>
-                    </div>
-                    <div>
-                        <label class="mb-2" for="SearchForm_SortOrder">sıralama şekli</label><br />
-                        <select data-val="true"
-                                data-val-required="The sıralama şekli field is required."
-                                id="SearchForm_SortOrder"
-                                name="SearchForm.SortOrder"
-                                aria-describedby="SearchForm_SortOrder-error"
-                                class="valid mb-2 w-75"
-                                aria-invalid="false">
-                            <option value="Topic">alfabetik</option>
-                            <option selected="selected" value="Date">
-                                yeniden eskiye
-                            </option>
-                            <option value="Count">dolu dolu</option>
-                        </select>
-                    </div>
-                    <div class="actions">
-                        <button type="submit" class="primary btn">mükemmel ara</button>
-                        <a class="close">boşver</a>
-                    </div>
-                    <ul id="ui-id-1"
-                        tabindex="0"
-                        class="ui-menu ui-widget ui-widget-content ui-autocomplete ui-front"
-                        style="display: none"></ul>
-                </form>
-            </div>
-            <div class="d-flex">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="/Login/Index">giriş</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/Register/Index">kayıt ol</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
     <div class="container-fluid">
         <ul class="d-flex gundem">
-            <li><a href="index.html">gündem</a></li>
-            <li><a href="/basliklar/debe.html">debe</a></li>
-            <li><a href="/basliklar/sorunsallar.html">sorunsallar</a></li>
-            <li><a href="/basliklar/spor.html">#spor</a></li>
-            <li><a href="/basliklar/iliskiler.html">#ilişkiler</a></li>
-            <li><a href="/basliklar/siyaset.html">#siyaset</a></li>
+   
+            @foreach (var item in Model)
+            {
+                <li style="padding: 0 15px;" class="bir">
+                    <a class="nav-link" href="#" style="text-decoration: none; color: #333;width: 136px;height: 42px;" onclick="loadCategoryHeadings('@item.CategoryId')">@item.CategoryName</a>
+                </li>
+            }
+           
             <li>
                 <a href="https://www.youtube.com/penavideo" target="_blank">
                     <img src="~/eksisözlük/img/penalogo.png"
@@ -160,4 +24,3 @@
             </li>
         </ul>
     </div>
-</header>

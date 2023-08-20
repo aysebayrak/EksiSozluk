@@ -1,28 +1,32 @@
-﻿<div class="left-side me-4">
+﻿@model List<EksiSozluk.EntityLayer.Concrete.Heading> 
+
+<div class="left-side me-4">
     <nav class="visible-link">
         <div class="header-bas d-flex">
+
             <h2 class="gundem-baslik">gündem</h2>
             <a id="gundem-gear" href="">
                 <i id="baslik" class="fa-solid fa-gear "></i>
             </a>
         </div>
         <div id="gundem-visible">
-            <p>gündeminizi kişiselleştirin:</p>
-            <ul class="gundem-link">
-                <li><a href="">#spor</a></li>
-                <li><a href="">#siyaset</a></li>
-                <li><a href="">#anket</a></li>
-                <li><a href="">#ilişkiler</a></li>
-                <li><a href="">#ekşi sözlük</a></li>
-                <li><a href="">#yetişkin</a></li>
-                <li><a href="">#trol</a></li>
-            </ul>
         </div>
         <ul class="topic-list partial" data-timestamp="637999757796904465">
-            <li>
-                <a href="/erkek-kardesimin-askerde-kotu-yola-dusmesi--7422246?a=popular"
-                   draggable="true">erkek kardeşimin askerde kötü yola düşmesi <small>79</small></a>
-            </li>
+            @foreach(var item in Model)
+            {
+              @*  <li>
+                    <a href="/erkek-kardesimin-askerde-kotu-yola-dusmesi--7422246?a=popular"
+                       draggable="true">erkek kardeşimin askerde kötü yola düşmesi <small>79</small></a>
+                </li>*@
+                <div class="d-flex justify-content-between me-2 kutu" style="padding: 10px 0 0 0;">
+                    <a href="/Content/ContentByHeading/@item.HeadingId" class="nav-link" style="display: inline; color: #333333; font-size: 14px;text-decoration: none;">@item.HeadingName</a>
+                    @* <a class="nav-link" href="/Content/ContentByHeading/@item.HeadingID">@item.HeadingName</a>*@
+
+                  @*  @(((DateTime)item.HeadingDate).ToString("dd-MMM-yyyy"))*@
+                    <small style="display: inline;color: #888;" class="me-2 ">1.7b</small>
+                </div>
+            }
+           
         </ul>
     </nav>
 </div>

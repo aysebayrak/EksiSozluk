@@ -2,9 +2,10 @@
 <html lang="en">
 @await Component.InvokeAsync("_HeadPartial")
 <body>
-   
+    <header class="">
+    @await Component.InvokeAsync("_SearchPartial")
     @await Component.InvokeAsync("_NavbarPartial")
- 
+    </header>
     <div class="container middle_page d-flex w-100">
         @await Component.InvokeAsync("_SidebarPartial")
         @RenderBody()
@@ -91,14 +92,16 @@
                 </div>
             </div>*@
 
-      
-          
+
+
 
 
            
+         
 
-
-            @await Component.InvokeAsync("_FooterPartial")
+@*
+            @await Component.InvokeAsync("_FooterPartial")*@
+           
         </div>
         @RenderSection("Scripts", required:false)
     </div>

@@ -12,9 +12,8 @@ namespace EksiSozluk.DataAccessLayer.Abstract
         void Insert(T t);
         void Update(T t);
         void Delete(T t);
-        List<T> GetAll();
+        List<T> GetList();
         T GetById(int id);
-
         List<T> List(Expression<Func<T, bool>> filter);
     }
 }

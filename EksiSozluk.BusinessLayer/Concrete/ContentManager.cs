@@ -2,9 +2,9 @@
 using EksiSozluk.DataAccessLayer.Abstract;
 using EksiSozluk.DataAccessLayer.Concrete;
 using EksiSozluk.EntityLayer.Concrete;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
-using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -47,9 +47,9 @@ namespace EksiSozluk.BusinessLayer.Concrete
             return _contentDal.GetById(id);
         }
 
-        public List<Content> TGetAll()
+        public List<Content> TGetList()
         {
-            return _contentDal.GetAll();
+            return _contentDal.GetList();
         }
 
         public void TInsert(Content t)

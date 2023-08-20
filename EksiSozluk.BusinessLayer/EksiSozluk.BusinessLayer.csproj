@@ -8,7 +8,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\EksiSozluk.DataAccessLayer\EksiSozluk.DataAccessLayer.csproj" />
-    <ProjectReference Include="..\EksiSozluk.EntityLayer\EksiSozluk.EntityLayer.csproj" />
   </ItemGroup>
 
 </Project>

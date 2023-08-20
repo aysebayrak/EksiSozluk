@@ -1,12 +1,20 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using EksiSozluk.BusinessLayer.Abstract;
+using Microsoft.AspNetCore.Mvc;
 
 namespace EksiSozluk.PresentationLayer.ViewComponents.Default
 {
     public class _SidebarPartial :ViewComponent
     {
-        public IViewComponentResult Invoke()
+        private readonly IHeadingService _headingService;
+        public _SidebarPartial(IHeadingService headingService)
         {
-            return View();
+            _headingService = headingService;
+        }
+        public IViewComponentResult Invoke(int categoryId)
+        {
+            var headings = _headingService.GetListByCategory(categoryId);
+            return View(headings);
+
         }
     }
 }

@@ -9,41 +9,49 @@ using System.Threading.Tasks;
 
 namespace EksiSozluk.DataAccessLayer.Repositories
 {
-    public class GenericRepository<T> : IGenericDal<T> where T : class
+    public class GenericRepository<T> : IGenericDal<T> where T : class , new()
     {
-        private readonly EksiSozlukContext _context;
-        public void Delete(T t)
+
+         public void Delete(T t)
         {
-            _context.Remove(t);
-            _context.SaveChanges();
+            using var context = new EksiSozlukContext();
+            context.Remove(t);
+            context.SaveChanges();
         }
 
         public T GetById(int id)
         {
-            return _context.Set<T>().Find(id);
-            
+            using var context = new EksiSozlukContext();
+            return context.Set<T>().Find(id);
+
         }
 
-        public List<T> GetAll()
+        public List<T> GetList()
         {
-            return _context.Set<T>().ToList();
+            using var context = new EksiSozlukContext();
+            return context.Set<T>().ToList();
         }
 
         public void Insert(T t)
         {
-            _context.Add(t);
-            _context.SaveChanges(); 
+            using var context = new EksiSozlukContext();
+            context.Add(t);
+            context.SaveChanges();
+        }
+
+       
+
+        public void Update(T t)
+        {
+            using var context = new EksiSozlukContext();
+            context.Update(t);
+            context.SaveChanges();
         }
 
         public List<T> List(Expression<Func<T, bool>> filter)
         {
-           return _context.Set<T>().Where(filter).ToList();
-        }
-
-        public void Update(T t)
-        {
-           _context.Update(t);
-            _context.SaveChanges();
+            using var context = new EksiSozlukContext();
+            return context.Set<T>().Where(filter).ToList();
         }
     }
 }

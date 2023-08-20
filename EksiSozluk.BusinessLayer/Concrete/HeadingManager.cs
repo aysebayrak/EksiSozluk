@@ -11,19 +11,17 @@ namespace EksiSozluk.BusinessLayer.Concrete
 {
     public class HeadingManager : IHeadingService
     {
-        IHeadingDal _headingDal;
+       private readonly   IHeadingDal _headingDal;
 
         public HeadingManager(IHeadingDal headingDal)
         {
             _headingDal = headingDal;
         }
 
-   
-
         public List<Heading> GetListByCategory(int id)
         {
             return _headingDal.List(x => x.CategoryId == id);
-        }
+         }
 
         public void TDelete(Heading t)
         {
@@ -35,9 +33,9 @@ namespace EksiSozluk.BusinessLayer.Concrete
             return _headingDal.GetById(id);
         }
 
-        public List<Heading> TGetAll()
+        public List<Heading> TGetList()
         {
-            return _headingDal.GetAll();
+            return _headingDal.GetList();
         }
 
         public void TInsert(Heading t)

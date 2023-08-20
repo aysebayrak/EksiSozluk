@@ -28,9 +28,9 @@ namespace EksiSozluk.BusinessLayer.Concrete
             return _userDal.GetById(id);
         }
 
-        public List<AppUser> TGetAll()
+        public List<AppUser> TGetList()
         {
-            return _userDal.GetAll();
+            return _userDal.GetList();
         }
 
         public void TInsert(AppUser t)

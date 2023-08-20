@@ -18,5 +18,8 @@ namespace EksiSozluk.DataAccessLayer.Concrete
         public DbSet<Category> Categories { get; set; }
         public DbSet<Content> Contents { get; set; }
         public DbSet<Heading> Headings { get; set; }
+      
+
+
     }
 }

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -11,7 +12,8 @@ namespace EksiSozluk.BusinessLayer.Abstract
         void TInsert(T t);
         void TUpdate(T t);
         void TDelete(T t);
-        List<T> TGetAll();
+        List<T> TGetList();
         T TGetById(int id);
+        
     }
 }

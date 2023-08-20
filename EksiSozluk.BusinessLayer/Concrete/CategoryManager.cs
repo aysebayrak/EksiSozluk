@@ -4,6 +4,7 @@ using EksiSozluk.EntityLayer.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -11,7 +12,7 @@ namespace EksiSozluk.BusinessLayer.Concrete
 {
     public class CategoryManager : ICategoryService
     {
-        private readonly ICategoryDal _categoryDal; //
+        private readonly ICategoryDal _categoryDal; 
 
         public CategoryManager(ICategoryDal categoryDal)
         {
@@ -27,16 +28,16 @@ namespace EksiSozluk.BusinessLayer.Concrete
             return _categoryDal.GetById(id);
         }
 
-        public List<Category> TGetAll()
+        public List<Category> TGetList()
         {
-            return _categoryDal.GetAll();
+            return _categoryDal.GetList();
         }
 
         public void TInsert(Category t)
         {
             _categoryDal.Insert(t);
         }
-
+           
         public void TUpdate(Category t)
         {
             _categoryDal.Update(t);
@@ -44,7 +45,9 @@ namespace EksiSozluk.BusinessLayer.Concrete
 
         public List<Category> GetActiveCategories()
         {
-            return _categoryDal.GetAll().Where(c => c.CategoryStatus).ToList();
+            return _categoryDal.GetList().Where(c => c.CategoryStatus).ToList();
         }
+
+       
     }
 }

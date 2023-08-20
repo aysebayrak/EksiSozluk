@@ -10,3 +10,5 @@ C:\projeler_ab\EksiSozluk\EksiSozluk.EntityLayer\obj\Debug\net6.0\EksiSozluk.Ent
 C:\projeler_ab\EksiSozluk\EksiSozluk.EntityLayer\obj\Debug\net6.0\refint\EksiSozluk.EntityLayer.dll
 C:\projeler_ab\EksiSozluk\EksiSozluk.EntityLayer\obj\Debug\net6.0\EksiSozluk.EntityLayer.pdb
 C:\projeler_ab\EksiSozluk\EksiSozluk.EntityLayer\obj\Debug\net6.0\ref\EksiSozluk.EntityLayer.dll
+C:\projeler_ab\EksiSozluk\EksiSozluk.EntityLayer\bin\Debug\net6.0\EksiSozluk.EntityLayer.runtimeconfig.json
+C:\projeler_ab\EksiSozluk\EksiSozluk.EntityLayer\obj\Debug\net6.0\EksiSozluk.EntityLayer.genruntimeconfig.cache
