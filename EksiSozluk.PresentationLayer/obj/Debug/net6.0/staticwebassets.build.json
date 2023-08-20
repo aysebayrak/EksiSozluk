@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1LxJG/as7sLQ+PzgvsmLyWT98Rdr21who2PbmxFFuJ4=",
+  "Hash": "U4aSP1zMmU7rciX46AhBOSVvkQzLOR4yDx90pDs63so=",
   "Source": "EksiSozluk.PresentationLayer",
   "BasePath": "_content/EksiSozluk.PresentationLayer",
   "Mode": "Default",
@@ -1341,6 +1341,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\EksiSözlük\\kit.fontawesome.com_91bd71ff2c.js"
+    },
+    {
+      "Identity": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\popper.min.js",
+      "SourceId": "EksiSozluk.PresentationLayer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\",
+      "BasePath": "_content/EksiSozluk.PresentationLayer",
+      "RelativePath": "EksiSözlük/popper.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\EksiSözlük\\popper.min.js"
     },
     {
       "Identity": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\style.css",

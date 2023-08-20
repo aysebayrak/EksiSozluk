@@ -305,6 +305,10 @@
       "PackagePath": "staticwebassets\\EksiSözlük\\kit.fontawesome.com_91bd71ff2c.js"
     },
     {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\popper.min.js",
+      "PackagePath": "staticwebassets\\EksiSözlük\\popper.min.js"
+    },
+    {
       "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\style.css",
       "PackagePath": "staticwebassets\\EksiSözlük\\style.css"
     },

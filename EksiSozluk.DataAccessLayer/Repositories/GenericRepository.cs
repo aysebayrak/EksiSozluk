@@ -11,7 +11,6 @@ namespace EksiSozluk.DataAccessLayer.Repositories
 {
     public class GenericRepository<T> : IGenericDal<T> where T : class , new()
     {
-
          public void Delete(T t)
         {
             using var context = new EksiSozlukContext();

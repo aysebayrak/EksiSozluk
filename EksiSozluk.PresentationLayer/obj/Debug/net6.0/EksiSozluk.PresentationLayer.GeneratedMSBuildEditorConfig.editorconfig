@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\projeler_ab\EksiSozluk\EksiSozluk.PresentationLayer
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/projeler_ab/EksiSozluk/EksiSozluk.PresentationLayer/Views/Content/ContentByHeading.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGVudFxDb250ZW50QnlIZWFkaW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/projeler_ab/EksiSozluk/EksiSozluk.PresentationLayer/Views/Default/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVmYXVsdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

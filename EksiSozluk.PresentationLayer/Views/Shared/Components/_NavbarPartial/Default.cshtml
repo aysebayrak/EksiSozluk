@@ -1,26 +1,25 @@
 ﻿@model List<EksiSozluk.EntityLayer.Concrete.Category>
 
-    <div class="container-fluid">
-        <ul class="d-flex gundem">
-   
-            @foreach (var item in Model)
+<div class="container-fluid">
+    <ul class="d-flex gundem">
+   @foreach (var item in Model)
             {
                 <li style="padding: 0 15px;" class="bir">
                     <a class="nav-link" href="#" style="text-decoration: none; color: #333;width: 136px;height: 42px;" onclick="loadCategoryHeadings('@item.CategoryId')">@item.CategoryName</a>
                 </li>
             }
-           
-            <li>
-                <a href="https://www.youtube.com/penavideo" target="_blank">
-                    <img src="~/eksisözlük/img/penalogo.png"
-                         alt="" />
-                </a>
-            </li>
-            <li>
-                <a href="https://seyler.eksisozluk.com" target="_blank">
-                    <img src="~/eksisözlük/img/eksiseylerlogopng.png"
-                         alt="" />
-                </a>
-            </li>
-        </ul>
-    </div>
+       
+        <li>
+            <a href="https://www.youtube.com/penavideo" target="_blank">
+                <img src="~/eksisözlük/img/penalogo.png"
+                     alt="" />
+            </a>
+        </li>
+        <li>
+            <a href="https://seyler.eksisozluk.com" target="_blank">
+                <img src="~/eksisözlük/img/eksiseylerlogopng.png"
+                     alt="" />
+            </a>
+        </li>
+    </ul>
+</div>

@@ -2,112 +2,25 @@
 <html lang="en">
 @await Component.InvokeAsync("_HeadPartial")
 <body>
+    <!-- Header Section Start -->
     <header class="">
-    @await Component.InvokeAsync("_SearchPartial")
-    @await Component.InvokeAsync("_NavbarPartial")
+        <nav class="navbar navbar-expand-lg bg-white">
+            @await Component.InvokeAsync("_SearchPartial")
+        </nav>
+        @await Component.InvokeAsync("_NavbarPartial")
     </header>
     <div class="container middle_page d-flex w-100">
         @await Component.InvokeAsync("_SidebarPartial")
-        @RenderBody()
+       
         <div class="Right-side ms-4">
-          
-          @*  <div class="entry-side">
-                <div class="reklam">
-                    <img src="https://bczl.meb.k12.tr/meb_iys_dosyalar/34/06/969693/resimler/2021_04/k_02102337_2118fbf0-51e6-477f-b6f7-175761b15217.jpg"
-                         width="970px"
-                         height="250px" />
-                </div>
-                <div class="topic-ss d-flex mt-3 mb-3">
-                    <div class="topic w-75 me-1">
-                        <h1 class="topic-h">
-                            <a href="">4 nisan 2014 rte'nin egemen bağış'ı koruması</a>
-                        </h1>
-
-                        <div class="content">
-                            korkutucudur.<br /><br />bir insan nasıl bu kadar rahat nasıl bu
-                            kadar kendine güvenerek yalan söyleyebiliyor hayret ediyorum..
-                            ses kaydına montaj derken ne kadarda rahat! en ufak renk
-                            vermiyor adam. yalan söylemenin vermiş olduğu en ufak bir stres
-                            yok. korkunç gerçekten..<br /><br />
-                        </div>
-                        <footer class="entry-footer">
-                            <div class="ust-button d-flex">
-                                <div class="entry-footer-left">
-                                    <a href="" class="m-2">
-                                        <i class="fa-solid fa-thumbs-up"></i>
-                                    </a>
-                                    <a href="" class="m-2">
-                                        <i class="fa-solid fa-thumbs-down"></i>
-                                    </a>
-                                </div>
-                                <div class="entry-footer-right">
-                                    <a href="" class="m-2">
-                                        <i class="fa-solid fa-arrow-up-from-bracket"></i>
-                                    </a>
-                                    <a href="" class="m-2">...</a>
-                                </div>
-                            </div>
-                            <div class="footer-info">
-                                <div>
-                                    <div id="entry-nick-container">
-                                        <div id="entry-author">
-                                            <a class="entry-author" href="">chippi</a>
-                                        </div>
-                                    </div>
-                                    <div class="entry-date">
-                                        <a class="entry-date permalink" href="">04.04.2014 09:58 ~ 11:06</a>
-                                    </div>
-                                </div>
-                                <div class="avatar-container">
-                                    <a href="">
-                                    
-                                        <img class="avatar"
-                                             src="~/eksisözlük/img/user.svg"
-                                             data-default="//ekstat.com/img/default-profile-picture-light.svg"
-                                             alt="chippi"
-                                             title="chippi" />
-                                    </a>
-                                </div>
-                            </div>
-                        </footer>
-                    </div>
-                    <div class="reklam-side w-25">
-                        <div class="reklam">
-                            <img src="https://tpc.googlesyndication.com/simgad/18263286309413066469"
-                                 width="100%"
-                                 height="300px" />
-                        </div>
-                    </div>
-                </div>
-            </div>*@
-           
-          
-           
-          
-         @*   <div class="bottom-ads">
-                <div class="reklam">
-                    <img src="https://tpc.googlesyndication.com/simgad/18263286309413066469"
-                         width="100%"
-                         height="300px" />
-                </div>
-            </div>*@
 
 
+            @RenderBody()
 
-
-
-           
-         
-
-@*
-            @await Component.InvokeAsync("_FooterPartial")*@
-           
+            @await Component.InvokeAsync("_FooterPartial")
         </div>
-        @RenderSection("Scripts", required:false)
     </div>
-  
-
+    @RenderSection("Scripts", required:false)
     @await Component.InvokeAsync("_ScriptPartial")
-  
 </body>
 </html>
