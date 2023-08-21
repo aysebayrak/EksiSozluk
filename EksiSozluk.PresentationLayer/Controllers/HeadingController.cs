@@ -1,4 +1,5 @@
 ﻿using EksiSozluk.BusinessLayer.Abstract;
+using EksiSozluk.EntityLayer.Concrete;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EksiSozluk.PresentationLayer.Controllers
@@ -6,10 +7,12 @@ namespace EksiSozluk.PresentationLayer.Controllers
     public class HeadingController : Controller
     {
         private readonly IHeadingService _headingService;
+        private readonly IContentService _contentService;
 
-        public HeadingController(IHeadingService headingService)
+        public HeadingController(IHeadingService headingService, IContentService contentService)
         {
             _headingService = headingService;
+            _contentService = contentService;
         }
 
         public IActionResult Index()
@@ -17,5 +20,7 @@ namespace EksiSozluk.PresentationLayer.Controllers
             var values = _headingService.TGetList();
             return View(values);
         }
+
+     
     }
 }

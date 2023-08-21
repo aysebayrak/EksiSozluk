@@ -1,5 +1,6 @@
 ﻿using EksiSozluk.BusinessLayer.Abstract;
 using Microsoft.AspNetCore.Mvc;
+using System.Xml.Linq;
 
 namespace EksiSozluk.PresentationLayer.ViewComponents.Default
 {

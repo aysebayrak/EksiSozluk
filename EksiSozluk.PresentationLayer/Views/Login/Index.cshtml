@@ -5,7 +5,7 @@
 }
 
 
-    <div class="form-container" id="login-form-container">
+@*    <div class="form-container" id="login-form-container">
         <h1>giriş</h1>
 
         <form action="/giris" method="post" novalidate="novalidate">
@@ -75,7 +75,69 @@
             <li><a href="/sifre-sifirla">şifremi unuttum</a></li>
             <li><a href="/kayit">kayıtlı kullanıcı olunası</a></li>
         </ul>
-    </div>
+    </div>*@
 
-  
+<div class="form-container" id="login-form-container">
+    <h1>giriş</h1>
+
+    <form action="/Default/Index" method="post" novalidate="novalidate">
+        <input name="__RequestVerificationToken"
+               type="hidden"
+               value="AHibX_CDQt6vf9xhnwLq6t7lzhpnk_Fqh5oLJ6WI9GOM2LCMMWqgWEsZlYwaNdG6OoNw4Ipv4LPwfGROqb5zCGfls14fFfFrUIV35eu5hyg1" />
+        <fieldset class="verticall">
+            <input id="ReturnUrl"
+                   name="ReturnUrl"
+                   type="hidden"
+                   value="https://eksisozluk.com/kayit" />
+            <span class="field-validation-valid"
+                  data-valmsg-for="Status"
+                  data-valmsg-replace="true"></span>
+            <div>
+                <label for="Email">e-mail adresi</label><br />
+                <input autofocus="autofocus"
+                       data-val="true"
+                       id="Email"
+                       maxlength="130"
+                       name="Email"
+                       type="email"
+                       value=""
+                       autocapitalize="off"
+                       autocorrect="off" />
+                <span class="field-validation-valid"
+                      data-valmsg-for="Email"
+                      data-valmsg-replace="true"></span>
+            </div>
+            <div>
+                <label for="PasswordHash">şifre</label><br />
+                <input data-val="true"
+                       id="PasswordHash"
+                       name="PasswordHash"
+                       type="password" />
+                <span class="field-validation-valid"
+                      data-valmsg-for="PasswordHash"
+                      data-valmsg-replace="true"></span>
+            </div>
+            <div>
+                <label class="checkbox">
+                    <input data-val="true"
+                           data-val-required="The unutma bunları sorucam sonra field is required."
+                           id="RememberMe"
+                           name="RememberMe"
+                           type="checkbox"
+                           value="true" /><input name="RememberMe" type="hidden" value="false" />
+                    unutma bunları sorucam sonra
+                </label>
+            </div>
+            <div class="actions">
+                <button type="submit" class="btn btn-primary btn-lg btn-block">
+                    giriş yapmaya çabala
+                </button>
+            </div>
+        </fieldset>
+    </form>
+    <h1>giremeyiş</h1>
+    <ul>
+        <li><a href="/Register/Index">kayıtlı kullanıcı olunası</a></li>
+    </ul>
+</div>
 

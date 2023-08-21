@@ -19,22 +19,27 @@ namespace EksiSozluk.PresentationLayer.Controllers
             return View(values);
         }
 
-        [HttpGet]
-        public IActionResult AddContent(int id)
-        {
-            ViewBag.d = id;
-            return View();
-        }
+        //[HttpGet]
+        //public IActionResult AddContent(int id)
+        //{
+        //    ViewBag.d = id;
+        //    return View();
+        //}
 
-        [HttpPost]
+      [HttpPost]
         public IActionResult AddContent(Content content)
         {
+           
+            int userid = Convert.ToInt32(HttpContext.Session.GetInt32("Id"));
+            int headingId = Convert.ToInt32(HttpContext.Session.GetInt32("HeadingId"));
             content.ContentDate = DateTime.Parse(DateTime.Now.ToShortDateString());
-
+            content.AppUser.Id= userid;
+            content.ContentStatus = true;
+            content.HeadingId = headingId;
             _contentService.TInsert(content);
-            return RedirectToAction("Index");
+            return Json(new { SONUÇ = true });
         }
-
+  
         public IActionResult DeleteContent(int id)
         {
             var value = _contentService.TGetById(id);

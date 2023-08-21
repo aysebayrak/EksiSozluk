@@ -14,6 +14,7 @@ namespace EksiSozluk.EntityLayer.Concrete
         public string WriterImage { get; set; }
         public string Title { get; set; }
         public bool WriterStatus { get; set; }
+        public int? ConfirmCode { get; set; }
         public List<Heading> Headings { get; set; }
         public List<Content> Contents { get; set; }
     }

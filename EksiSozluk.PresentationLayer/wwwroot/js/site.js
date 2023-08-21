@@ -1,16 +1,11 @@
 ﻿$(document).ready(function () {
     $(".nav-link").click(function (e) {
         e.preventDefault();
-
-        // Eğer tıklanan linkin no-ajax sınıfı yoksa kategori başlıklarını yükle
         if (!$(this).hasClass("no-ajax")) {
             var categoryId = $(this).data("category-id");
             loadCategoryHeadings(categoryId);
         } else {
-            // no-ajax sınıfı varsa linki sayfa içeriğini yüklemek için kullan
-            var href = $(this).attr("href");
-            // Sayfa içeriğini yükleme fonksiyonunu burada çağırabilirsiniz
-            // Örnek olarak aşağıdaki gibi bir kod ekleyebilirsiniz
+       var href = $(this).attr("href");
             window.location.href = href;
         }
     });
@@ -26,35 +21,6 @@ function loadCategoryHeadings(categoryId) {
         }
     });
 }
-
-
-
-
-$("#BtnCommentAdd").click(function () {
-    debugger;
-    var formData = $("#FrmComment").serialize();
-    $.ajax({
-        type: "POST",
-        url: "/Product/AddComment",
-        data: formData,
-        success: function (data) {
-            if (data.sonuc) {
-                swal("Kaydedildi", "Yorumunuz başarıyla kaydedildi", "success");
-            }
-            else {
-                swal("Hata", "Yorum Ekleme İşleminde Bir Hata Oluştu", "error");
-            }
-
-        },
-        error: function () {
-            swal("Hata", "Yorum Ekleme İşleminde Bir Hata Oluştu", "error");
-        }
-    });
-});
-
-
-
-
 
 //$(document).ready(function () {
 //    $(".nav-link").click(function (e) {
