@@ -1,6 +1,8 @@
 ﻿using EksiSozluk.BusinessLayer.Abstract;
 using EksiSozluk.DataAccessLayer.Abstract;
+using EksiSozluk.DataAccessLayer.Concrete;
 using EksiSozluk.EntityLayer.Concrete;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,8 +22,12 @@ namespace EksiSozluk.BusinessLayer.Concrete
 
         public List<Heading> GetListByCategory(int id)
         {
-            return _headingDal.List(x => x.CategoryId == id);
-         }
+            //return _headingDal.List(x => x.CategoryId == id);
+            var context = new EksiSozlukContext();
+            return context.Headings.Where(h => h.CategoryId == id)
+                       .Include(h => h.Category).ToList();
+                     
+        }
 
         public void TDelete(Heading t)
         {

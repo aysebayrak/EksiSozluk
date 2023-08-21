@@ -1,7 +1,8 @@
-﻿
+﻿@model List<EksiSozluk.EntityLayer.Concrete.Content>
 @{
     ViewData["Title"] = "ContentByHeading";
     Layout = "~/Views/Shared/_EksiSozluk.cshtml";
+    int i = 0;
 }
 <div class="entry-side">
     <div class="reklam">
@@ -11,17 +12,19 @@
     </div>
     <div class="topic-ss d-flex mt-3 mb-3">
         <div class="topic w-75 me-1">
-            <h1 class="topic-h">
-                <a href="">4 nisan 2014 rte'nin egemen bağış'ı koruması</a>
-            </h1>
+            @foreach(var item in Model)
+            {
+                i++;
+                if(i == 1)
+                {
+                    <h1 class="topic-h">
+                        <a href="">@item.Heading.HeadingName</a>
+                    </h1>
+                }
 
             <div class="content">
-                korkutucudur.<br /><br />bir insan nasıl bu kadar rahat nasıl bu
-                kadar kendine güvenerek yalan söyleyebiliyor hayret ediyorum..
-                ses kaydına montaj derken ne kadarda rahat! en ufak renk
-                vermiyor adam. yalan söylemenin vermiş olduğu en ufak bir stres
-                yok. korkunç gerçekten..<br /><br />(bkz:
-                <a class="b" href="">yalancılık sanatı</a>)
+               <br /><br />@item.ContentTitle..<br /><br />
+                <a class="b" href=""> </a>
             </div>
             <footer class="entry-footer">
                 <div class="ust-button d-flex">
@@ -44,11 +47,11 @@
                     <div>
                         <div id="entry-nick-container">
                             <div id="entry-author">
-                                <a class="entry-author" href="">chippi</a>
+                                <a class="entry-author" href="">@item.AppUser.UserName</a>
                             </div>
                         </div>
                         <div class="entry-date">
-                            <a class="entry-date permalink" href="">04.04.2014 09:58 ~ 11:06</a>
+                                <a class="entry-date permalink" href="">@(((DateTime)item.ContentDate).ToString("dd-MMM-yyyy"))</a>
                         </div>
                     </div>
                     <div class="avatar-container">
@@ -61,7 +64,29 @@
                         </a>
                     </div>
                 </div>
+                <br />
+                <br>
+            
             </footer>
+            }
+            <div class="column-75 yazi" style="position: relative;">
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">İçerik Ekleme</label>
+                    <textarea class="form-control larger-text" id="exampleFormControlTextarea1" rows="6"></textarea>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <div class="ml-auto">
+                        <a class="btn custom-color" style="background-color: #4CAF50;" id="yollaButton" role="button">yolla</a>
+                    </div>
+                </div>
+            </div>
+            <style>
+                .larger-text {
+                    font-size: 16px;
+                    height: 200px;
+                    resize: vertical;
+                }
+            </style>
         </div>
         <div class="reklam-side w-25">
             <div class="reklam">
