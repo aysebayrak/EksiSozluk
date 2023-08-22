@@ -4,8 +4,19 @@ using EksiSozluk.DataAccessLayer.Abstract;
 using EksiSozluk.DataAccessLayer.Concrete;
 using EksiSozluk.DataAccessLayer.EntityFramework;
 using EksiSozluk.EntityLayer.Concrete;
+using EksiSozluk.PresentationLayer.Models;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAllOrigins", builder =>
+    {
+        builder.AllowAnyOrigin()
+               .AllowAnyHeader()
+               .AllowAnyMethod();
+    });
+});
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
@@ -20,8 +31,10 @@ builder.Services.AddScoped<IUserDal, EfUserDal>();
 builder.Services.AddScoped<IUserService, UserManager>();
 builder.Services.AddDbContext<EksiSozlukContext>();
 
+builder.Services.AddSession();
+
 builder.Services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<EksiSozlukContext>
-    /*().AddErrorDescriber<CustomIdentityValidator>*/
+    ().AddErrorDescriber<CustomIdentityValidator>
     ().AddEntityFrameworkStores<EksiSozlukContext>();
 
 

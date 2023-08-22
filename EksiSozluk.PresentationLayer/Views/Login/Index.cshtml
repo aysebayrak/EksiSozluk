@@ -1,4 +1,4 @@
-﻿
+﻿@model EksiSozluk.PresentationLayer.Models.LoginViewModel
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_EksiSozluk.cshtml";
@@ -77,10 +77,12 @@
         </ul>
     </div>*@
 
+
+
 <div class="form-container" id="login-form-container">
     <h1>giriş</h1>
 
-    <form action="/Default/Index" method="post" novalidate="novalidate">
+    <form action="/giris" method="post" novalidate="novalidate">
         <input name="__RequestVerificationToken"
                type="hidden"
                value="AHibX_CDQt6vf9xhnwLq6t7lzhpnk_Fqh5oLJ6WI9GOM2LCMMWqgWEsZlYwaNdG6OoNw4Ipv4LPwfGROqb5zCGfls14fFfFrUIV35eu5hyg1" />
@@ -93,26 +95,15 @@
                   data-valmsg-for="Status"
                   data-valmsg-replace="true"></span>
             <div>
-                <label for="Email">e-mail adresi</label><br />
-                <input autofocus="autofocus"
-                       data-val="true"
-                       id="Email"
-                       maxlength="130"
-                       name="Email"
-                       type="email"
-                       value=""
-                       autocapitalize="off"
-                       autocorrect="off" />
+                <label for="UserName">e-mail adresi</label><br />
+                <input type="email" id="loginemail" class="form-control" asp-for="Email" placeholder="Kullanıcı Mail" required>
                 <span class="field-validation-valid"
                       data-valmsg-for="Email"
                       data-valmsg-replace="true"></span>
             </div>
             <div>
-                <label for="PasswordHash">şifre</label><br />
-                <input data-val="true"
-                       id="PasswordHash"
-                       name="PasswordHash"
-                       type="password" />
+                <label for="Password">şifre</label><br />
+                <input type="password" id="loginPassword" class="form-control" asp-for="PasswordHash" placeholder="Şifre" required>
                 <span class="field-validation-valid"
                       data-valmsg-for="PasswordHash"
                       data-valmsg-replace="true"></span>
@@ -137,7 +128,7 @@
     </form>
     <h1>giremeyiş</h1>
     <ul>
-        <li><a href="/Register/Index">kayıtlı kullanıcı olunası</a></li>
+        <li><a href="/sifre-sifirla">şifremi unuttum</a></li>
+        <li><a href="/kayit">kayıtlı kullanıcı olunası</a></li>
     </ul>
 </div>
-
