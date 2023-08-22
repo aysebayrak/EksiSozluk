@@ -267,3 +267,4 @@ C:\projeler_ab\EksiSozluk\EksiSozluk.PresentationLayer\bin\Debug\net6.0\System.S
 C:\projeler_ab\EksiSozluk\EksiSozluk.PresentationLayer\bin\Debug\net6.0\System.Text.Encoding.CodePages.dll
 C:\projeler_ab\EksiSozluk\EksiSozluk.PresentationLayer\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
 C:\projeler_ab\EksiSozluk\EksiSozluk.PresentationLayer\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Text.Encoding.CodePages.dll
+C:\projeler_ab\EksiSozluk\EksiSozluk.PresentationLayer\bin\Debug\net6.0\FluentValidation.dll

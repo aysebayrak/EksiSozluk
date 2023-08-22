@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "f8Oe0otU8O7aDR17hx+5u0yhI0rOmUoz0j+2ta5VfJmasQnT6SzDOaCKGbRTFP2jqZXuZRrjasc9eh4dBu5KyA==",
+  "dgSpecHash": "LhMFaWWifNOXy5vnM4ngLKOPbEYEkY0AOAvK6JKLBSaqZln6SZdzbwJA614U7Y80DZElghAh/dEtmS8YzAfI7g==",
   "success": true,
   "projectFilePath": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\EksiSozluk.PresentationLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ayseb\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
+    "C:\\Users\\ayseb\\.nuget\\packages\\fluentvalidation\\11.7.1\\fluentvalidation.11.7.1.nupkg.sha512",
     "C:\\Users\\ayseb\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\ayseb\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\ayseb\\.nuget\\packages\\humanizer.core.af\\2.14.1\\humanizer.core.af.2.14.1.nupkg.sha512",
