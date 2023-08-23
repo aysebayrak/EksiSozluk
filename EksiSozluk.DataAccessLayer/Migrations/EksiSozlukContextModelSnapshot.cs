@@ -112,7 +112,6 @@ namespace EksiSozluk.DataAccessLayer.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Title")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("TwoFactorEnabled")
@@ -123,10 +122,9 @@ namespace EksiSozluk.DataAccessLayer.Migrations
                         .HasColumnType("nvarchar(256)");
 
                     b.Property<string>("WriterImage")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<bool>("WriterStatus")
+                    b.Property<bool?>("WriterStatus")
                         .HasColumnType("bit");
 
                     b.HasKey("Id");

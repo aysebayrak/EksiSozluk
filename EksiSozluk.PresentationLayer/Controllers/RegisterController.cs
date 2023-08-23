@@ -31,15 +31,19 @@ namespace EksiSozluk.PresentationLayer.Controllers
 
             AppUser appUser = new AppUser
             {
-               
+                Name = model.Name,
+                Surname = model.Surname,
                 Email = model.Email,
-                UserName = model.UserName,
+                UserName = model.Username,
+                Title="çaylak",
+                WriterStatus=true,
+                LockoutEnd=   DateTime.Parse(DateTime.Now.ToShortDateString()),
                 ConfirmCode = x
             };
 
             if (ModelState.IsValid)
             {
-                if (model.ConfirmPassword == model.PasswordHash)
+                if (model.ConfirmPassword == model.Password)
                 {
 
                     MimeMessage mimeMessage = new MimeMessage();
@@ -62,7 +66,7 @@ namespace EksiSozluk.PresentationLayer.Controllers
                     smtpClient.Disconnect(true);
 
 
-                    var result = await _userManager.CreateAsync(appUser, model.PasswordHash);
+                    var result = await _userManager.CreateAsync(appUser, model.Password);
 
                     if (result.Succeeded)
                     {
