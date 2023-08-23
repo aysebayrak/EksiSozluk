@@ -217,6 +217,10 @@
       "PackagePath": "staticwebassets\\EksiSözlük\\img\\arkaplan1png.png"
     },
     {
+      "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\img\\aysebayrak.jpeg",
+      "PackagePath": "staticwebassets\\EksiSözlük\\img\\aysebayrak.jpeg"
+    },
+    {
       "Id": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\img\\ben.jpeg",
       "PackagePath": "staticwebassets\\EksiSözlük\\img\\ben.jpeg"
     },

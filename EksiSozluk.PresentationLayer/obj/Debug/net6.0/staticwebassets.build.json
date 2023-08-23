@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "U4aSP1zMmU7rciX46AhBOSVvkQzLOR4yDx90pDs63so=",
+  "Hash": "55Xltv6UkgCbll/GGwEI3k8H+s1Cg6J2I4ZfKB7RzI4=",
   "Source": "EksiSozluk.PresentationLayer",
   "BasePath": "_content/EksiSozluk.PresentationLayer",
   "Mode": "Default",
@@ -967,6 +967,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\EksiSözlük\\img\\arkaplan1png.png"
+    },
+    {
+      "Identity": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\img\\aysebayrak.jpeg",
+      "SourceId": "EksiSozluk.PresentationLayer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\",
+      "BasePath": "_content/EksiSozluk.PresentationLayer",
+      "RelativePath": "EksiSözlük/img/aysebayrak.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\EksiSözlük\\img\\aysebayrak.jpeg"
     },
     {
       "Identity": "C:\\projeler_ab\\EksiSozluk\\EksiSozluk.PresentationLayer\\wwwroot\\EksiSözlük\\img\\ben.jpeg",

@@ -1,0 +1,120 @@
+﻿@model EksiSozluk.EntityLayer.Concrete.AppUser
+@{
+    ViewData["Title"] = "UserDetail";
+    Layout = "~/Views/Shared/_EksiSozluk.cshtml";
+}
+<div id="content" class="instapaper_body" role="main">
+
+    <style>
+
+        .menu {
+            list-style: none display: block;
+        }
+
+            .menu li {
+                display: inline;
+                margin: 10px;
+                position: relative;
+                font-weight: bold;
+            }
+
+    </style>
+
+
+    @*  <img class="rounded-circle" src="" alt="">*@
+    <section id="content-body">
+        <div class="profile-top-container">
+            <div id="profile-logo">
+                <img src="~/EksiSözlük/img/user.svg">
+            </div>
+            <div id="nick-container">
+                <div>
+                    <h1>
+                        <a>@Model.UserName</a>
+                    </h1>
+                </div>
+            </div>
+            <ul>
+                <button type="button" class="btn btn-warning">@Model.Title</button>
+            </ul>
+
+            <div id="badge-info-popup">
+                <a id="badge-link"></a>
+                <span id="badge-description"></span>
+            </div>
+            <ul id="user-image-badges">
+            </ul>
+        </div>
+        <div>
+            <ul class="menu">
+                <li>0<span> entry</span></li>
+                <li>1<span> takipçi</span></li>
+                <li>1<span> takip</span></li>
+            </ul>
+
+            <ul class="menu">
+
+                <img src="~/EksiSözlük/img/sosyal.jpg" width="75" height="70"></img>
+
+                <li>
+                    <img src="~/EksiSözlük/img/rozet.jpg" width="75" height="70"></img>
+            </ul>
+        </div>
+     @*   <ul class="menu">
+            <li> entry'ler </></li>
+        </ul>*@
+        <button class="btn btn-primary" id="loadUserContents" data-userid="@Model.Id"> Entry'ler </button>
+        <div id="user-content-list">
+            
+        </div>
+    </section>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+@*<<script>
+     $(document).ready(function () {
+         $("#loadUserContents").click(function () {
+             var id = $(this).data("userid"); // Değişiklik
+             $.ajax({
+                 url: "/User/UserWriter",
+                 data: { id: id },
+                 type: "GET",
+                 success: function (data) {
+                     $("#user-content-list").html(data); // Değişiklik
+                 }
+             });
+         });
+     });
+</script>
+
+
+*@
+
+<script>
+    $(document).ready(function () {
+        $("#loadUserContents").click(function () {
+            var id = $(this).data("userid");
+            $.ajax({
+                url: "/User/UserWriter",
+                data: { id: id },
+                type: "GET",
+                success: function (data) {
+                    var userContents = JSON.parse(data);
+                    var tableHtml = "<table><thead><tr><th>Content</th><th>Date</th></tr></thead><tbody>";
+
+                    for (var i = 0; i < userContents.length; i++) {
+                        tableHtml += "<tr>";
+                        tableHtml += "<td>&nbsp;&nbsp;" + userContents[i].ContentTitle + "&nbsp;&nbsp;</td>";
+                        tableHtml += "<td>&nbsp;&nbsp;" + userContents[i].ContentDate + "&nbsp;&nbsp;</td>";
+                        tableHtml += "</tr>";
+                    }
+
+                    tableHtml += "</tbody></table>";
+                    $("#user-content-list").html(tableHtml);
+                }
+            });
+        });
+    });
+</script>
+
+

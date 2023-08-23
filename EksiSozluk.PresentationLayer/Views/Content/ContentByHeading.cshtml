@@ -4,9 +4,10 @@
     Layout = "~/Views/Shared/_EksiSozluk.cshtml";
     int i = 0;
 }
+@*src="https://bczl.meb.k12.tr/meb_iys_dosyalar/34/06/969693/resimler/2021_04/k_02102337_2118fbf0-51e6-477f-b6f7-175761b15217.jpg*@
 <div class="entry-side">
     <div class="reklam">
-        <img src="https://bczl.meb.k12.tr/meb_iys_dosyalar/34/06/969693/resimler/2021_04/k_02102337_2118fbf0-51e6-477f-b6f7-175761b15217.jpg"
+        <img src="~/EksiSözlük/img/aysebayrak.jpeg" 
              width="970px"
              height="250px" />
     </div>
@@ -47,16 +48,17 @@
                     <div>
                         <div id="entry-nick-container">
                             <div id="entry-author">
-                                <a class="entry-author" href="">@item.AppUser.UserName</a>
+                                    <a class="entry-author" href="/User/UserDetail/@item.AppUser.Id">@item.AppUser.UserName</a>
                             </div>
                         </div>
                         <div class="entry-date">
-                                <a class="entry-date permalink" href="">@(((DateTime)item.ContentDate).ToString("dd-MMM-yyyy"))</a>
+                                <a class="entry-date permalink" href="/User/UserDetail/@item.AppUser.Id">@(((DateTime)item.ContentDate).ToString("dd-MMM-yyyy"))</a>
                         </div>
                     </div>
                     <div class="avatar-container">
                         <a href="">
                             <img class="avatar"
+                                 href="/User/UserDetail/@item.AppUser.Id"
                                  src="~/EksiSözlük/img/user.svg"
                                  data-default="//ekstat.com/img/default-profile-picture-light.svg"
                                  alt="chippi"
