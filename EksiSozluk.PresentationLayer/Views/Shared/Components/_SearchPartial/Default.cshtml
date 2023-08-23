@@ -1,4 +1,9 @@
-﻿<div class="container-fluid header-top">
+﻿@{
+    
+    var userName = ViewData["User.Identity.Name"] as string;
+
+}
+<div class="container-fluid header-top">
     <a class="navbar-brand me-5 ms-3" href="index.html">
         <img class="logo"
              src="~/eksisözlük/img/eksisozluk_logo.svg"
@@ -126,12 +131,23 @@
     </div>
     <div class="d-flex">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-                <a class="nav-link no-ajax" href="/Login/Index">giriş</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link no-ajax" href="/Register/Index">kayıt ol</a>
-            </li>
+            @if (string.IsNullOrEmpty(ViewBag.name))
+            {
+                <li class="nav-item">
+                    <a class="nav-link no-ajax" href="/Login/Index">giriş</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link no-ajax" href="/Register/Index">kayıt ol</a>
+                </li>
+            }
+            else
+            {
+                <li class="nav-item">
+                    <a class="nav-link no-ajax" href="/Logout" >Çıkış Yap ,@ViewBag.name</a>
+                </li>
+            }
+
+         
         </ul>
     </div>
 </div>

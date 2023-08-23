@@ -94,9 +94,14 @@
             <span class="field-validation-valid"
                   data-valmsg-for="Status"
                   data-valmsg-replace="true"></span>
-            <div>
+           @* <div>
                 <label for="Email">e-mail adresi</label><br />
                 <input type="email" id="loginemail" class="form-control" asp-for="Username" placeholder="Kullanıcı Mail" required>
+                <span asp-validation-for="Username" class="text-danger "></span>
+            </div>*@
+            <div>
+                <label for="UsurName">Kullanıcı Adı </label><br />
+                <input type="text" id="loginemail" class="form-control" asp-for="Username" placeholder="Kullanıcı Adı" required>
                 <span asp-validation-for="Username" class="text-danger "></span>
             </div>
             <div>

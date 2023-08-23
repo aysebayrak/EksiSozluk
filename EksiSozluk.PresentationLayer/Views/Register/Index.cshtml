@@ -322,16 +322,19 @@
                   <div>
                     <label for="Name">Ad</label><br />
                    <input type="text" class="form-control" id="f-name" asp-for="Name" placeholder="Ad">
+                <span asp-validation-for="Name" class="text-danger "></span>
                 </div>
                 <div>
                 <div>
                     <label for="Surname">SoyAd</label><br />
                     <input type="text" class="form-control" id="f-name" asp-for="Surname" placeholder="SoyAdı">
+                    <span asp-validation-for="Surname" class="text-danger "></span>
                 </div>
                 <div>
                 <div>
                     <label for="UsurName">nick</label><br />
                    <input type="text" class="form-control" id="f-name" asp-for="Username" placeholder="Nick">
+                        <span asp-validation-for="Username" class="text-danger "></span>
                 </div>
                 <div>
                
@@ -396,8 +399,9 @@
                 <div class="actions">
                 <button@* href="/Login/Index"*@ type="submit" class="btn btn-primary btn-lg btn-block w-100">
                         kayıt ol işte böyle
-                    </button>
-                </div>
+                    </button>  
+                    </div>
+                    <div class="text-danger" asp-validation-summary="ModelOnly"></div>
             </fieldset>
         </form>
     </div>

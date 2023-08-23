@@ -22,7 +22,10 @@ namespace EksiSozluk.PresentationLayer.Controllers
         [HttpPost]
         public async Task<IActionResult> Index(LoginViewModel model)
         {
+
             var result = await _signInManager.PasswordSignInAsync(model.Username, model.Password, true, true);
+          
+
             if (result.Succeeded)
             {
                 //return RedirectToAction("Index", "Default");

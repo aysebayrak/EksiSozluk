@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using EksiSozluk.BusinessLayer.Abstract;
+using Microsoft.AspNetCore.Mvc;
 
 namespace EksiSozluk.PresentationLayer.ViewComponents.Default
 {
@@ -6,6 +7,8 @@ namespace EksiSozluk.PresentationLayer.ViewComponents.Default
     {
         public IViewComponentResult Invoke()
         {
+            var userName = User.Identity.Name;
+            ViewBag.name = userName;
             return View();
         }
     }
