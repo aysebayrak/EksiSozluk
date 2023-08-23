@@ -7,10 +7,12 @@ namespace EksiSozluk.PresentationLayer.Controllers
     public class ContentController : Controller
     {
         private readonly IContentService _contentService;
+        private readonly IHttpContextAccessor _httpContextAccessor;
 
-        public ContentController(IContentService contentService)
+        public ContentController(IContentService contentService, IHttpContextAccessor httpContextAccessor)
         {
             _contentService = contentService;
+            _httpContextAccessor = httpContextAccessor;
         }
 
         public IActionResult Index()
@@ -19,17 +21,17 @@ namespace EksiSozluk.PresentationLayer.Controllers
             return View(values);
         }
 
-        //[HttpGet]
-        //public IActionResult AddContent(int id)
-        //{
-        //    ViewBag.d = id;
-        //    return View();
-        //}
+        [HttpGet]
+        public IActionResult AddContent(int id)
+        {
 
-      [HttpPost]
+            return View();
+        }
+
+        [HttpPost]
         public IActionResult AddContent(Content content)
         {
-           
+
             int userid = Convert.ToInt32(HttpContext.Session.GetInt32("Id"));
             int headingId = Convert.ToInt32(HttpContext.Session.GetInt32("HeadingId"));
             content.ContentDate = DateTime.Parse(DateTime.Now.ToShortDateString());
