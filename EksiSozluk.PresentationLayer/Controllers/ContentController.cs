@@ -35,7 +35,7 @@ namespace EksiSozluk.PresentationLayer.Controllers
 
 
         [HttpPost]
-        public async Task<IActionResult> AddContent(Content content)
+        public async Task<IActionResult> AddContent([FromBody] Content content)
         {
             EksiSozlukContext context = new EksiSozlukContext();
 
@@ -44,13 +44,14 @@ namespace EksiSozluk.PresentationLayer.Controllers
             {
                 return BadRequest("Kullanıcı bulunamadı");
             }
-           
-            int headingId = Convert.ToInt32(HttpContext.Session.GetInt32("HeadingId"));
+
+            //int headingId = Convert.ToInt32(HttpContext.Session.GetInt32("HeadingId"));
+            var headingId = content.HeadingId;
             content.ContentDate = DateTime.Now;
 
 
-            content.AppUser = new AppUser { Id = user.Id };
-
+            //content.AppUser = new AppUser { Id = user.Id };
+            content.AppUser = user;
             content.ContentStatus = true;
             content.HeadingId = headingId;
 

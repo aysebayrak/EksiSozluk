@@ -12,10 +12,11 @@
              height="250px" />
     </div>
     <div class="topic-ss d-flex mt-3 mb-3">
-        <div class="topic w-75 me-1">
+        <div class="topic w-75 me-1" id="contentList">
             
             @foreach(var item in Model)
             {
+                <input type="hidden" class="heading-id" value="@item.Heading.HeadingId" />
            
                 i++;
                 if(i == 1)
@@ -83,6 +84,7 @@
                        @* <a class="btn custom-color" style="background-color: #4CAF50;"  role="button">yolla</a>*@
                         <button id="addContentBtn" class="btn btn-primary">İçerik Ekle</button>
                     </div>
+               
                 </div>
                
 
@@ -109,7 +111,7 @@
     $(document).ready(function () {
         $("#addContentBtn").click(function () {
             var contentTitle = $("#contentTitle").val();
-            var headingId = $("#ViewBag.id").val(); 
+            var headingId = $(".heading-id").val();
 
             $.ajax({
                 url: "/Content/AddContent",
@@ -119,12 +121,13 @@
                 success: function () {
                     alert("İçerik başarıyla eklendi.");
                 },
-                error: function () {
-                    alert("İçerik eklenirken bir hata oluştu.");
+                error: function (xhr, textStatus, errorThrown) {
+                    alert("İçerik eklenirken bir hata oluştu. Status: " + textStatus + ", Error: " + errorThrown);
                 }
             });
         });
     });
+
 </script>
 
 
