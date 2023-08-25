@@ -3,6 +3,7 @@
     var userName = ViewData["User.Identity.Name"] as string ;
 
 }
+
 <div class="container-fluid header-top">
     <a class="navbar-brand me-5 ms-3" href="index.html">
         <img class="logo"
@@ -133,17 +134,27 @@
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             @if (string.IsNullOrEmpty(ViewBag.name))
             {
+
                 <li class="nav-item">
-                    <a class="nav-link no-ajax" href="/Login/Index">giriş</a>
+                    @*<a class="nav-link no-ajax" href="/Login/Index">giriş</a>*@
+                    <a href="/Login/Index">
+                        <input type="button" class="btn btn-primary nav-link no-ajax" value="giriş">
+                    </a>
                 </li>
+                <br />
+                <br />
                 <li class="nav-item">
-                    <a class="nav-link no-ajax" href="/Register/Index">kayıt ol</a>
+                    <a href="/Register/Index">
+                        <input type="button" class="btn btn-primary nav-link no-ajax" value="kayıt ol">
+                    </a>
                 </li>
             }
             else
             {
                 <li class="nav-item">
-                    <a class="nav-link no-ajax" href="/Login/Logout" >Çıkış Yap ,@ViewBag.name</a>
+                    <a href="/Login/Logout">
+                        <input type="button" class="btn btn-primary nav-link no-ajax" value="Çıkış Yap ,@ViewBag.name">
+                    </a>
                 </li>
             }
 
