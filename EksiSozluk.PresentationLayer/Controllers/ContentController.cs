@@ -44,7 +44,7 @@ namespace EksiSozluk.PresentationLayer.Controllers
             {
                 return BadRequest("Kullanıcı bulunamadı");
             }
-
+           
             int headingId = Convert.ToInt32(HttpContext.Session.GetInt32("HeadingId"));
             content.ContentDate = DateTime.Now;
 
