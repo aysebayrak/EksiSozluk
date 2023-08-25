@@ -1,5 +1,6 @@
 ﻿using EksiSozluk.EntityLayer.Concrete;
 using EksiSozluk.PresentationLayer.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
@@ -33,5 +34,14 @@ namespace EksiSozluk.PresentationLayer.Controllers
             }
             return View();
         }
+
+        [Authorize]
+        [HttpGet]
+        public async Task<IActionResult> Logout()
+        {
+            await _signInManager.SignOutAsync();
+            return RedirectToAction("Index", "Default");
+        }
+
     }
 }

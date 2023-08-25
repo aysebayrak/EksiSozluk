@@ -1,6 +1,6 @@
 ﻿@{
     
-    var userName = ViewData["User.Identity.Name"] as string;
+    var userName = ViewData["User.Identity.Name"] as string ;
 
 }
 <div class="container-fluid header-top">
@@ -143,7 +143,7 @@
             else
             {
                 <li class="nav-item">
-                    <a class="nav-link no-ajax" href="/Logout" >Çıkış Yap ,@ViewBag.name</a>
+                    <a class="nav-link no-ajax" href="/Login/Logout" >Çıkış Yap ,@ViewBag.name</a>
                 </li>
             }
 

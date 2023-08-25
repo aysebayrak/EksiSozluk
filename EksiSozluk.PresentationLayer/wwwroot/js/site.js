@@ -1,4 +1,5 @@
-﻿$(document).ready(function () {
+﻿
+$(document).ready(function () {
     $(".nav-link").click(function (e) {
         e.preventDefault();
 
@@ -18,4 +19,7 @@ function loadCategoryHeadings(categoryId) {
         }
     });
 }
+
+
+
 
