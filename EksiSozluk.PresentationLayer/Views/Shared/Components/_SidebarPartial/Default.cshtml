@@ -2,14 +2,16 @@
 @{
     int i =0;
 }
-<div class="left-side me-4">
+<div class="left-side me-4" >
     <nav class="visible-link">
         <div class="header-bas d-flex">
             <a id="gundem-gear" href="">
                 @*<i id="baslik" class="fa-solid fa-gear "></i>*@
             </a>
         </div>
-        <ul class="topic-list partial" data-timestamp="637999757796904465">
+        <ul class="topic-list partial" data-timestamp="637999757796904465" >
+
+          
             @foreach (var item in Model)
             {
                 i++;
@@ -17,11 +19,6 @@
                 {    
                     <h2 style="font-size: 20px;margin-bottom: 8px;color: #888;line-height: 1.2;">@item.Category.CategoryName <a href=""><i class="fa-solid fa-gear" style="color: #888;font-size: 10px;"></i></a></h2>
                 }
-               @* <div class="d-flex justify-content-between me-2 kutu" style="padding: 10px 0 0 0;">
-                    <a href="/Content/ContentByHeading/@item.HeadingId" class="nav-link" style="display: inline; color: #333333; font-size: 14px;text-decoration: none;">@item.HeadingName</a>
-                 @*   @(((DateTime)item.HeadingDate).ToString("dd-MMM-yyyy"))
-                    <small style="display: inline;color: #888;" class="me-2 ">1.7b</small>
-                </div>*@
                 <div class="d-flex justify-content-between align-items-center me-2 kutu" style="padding: 10px 0 0 0;">
                     <style>
                         .nav-link {
@@ -29,7 +26,7 @@
                             color: #333333;
                             font-size: 14px;
                             text-decoration: none;
-                            flex-grow: 1; /* Başlık alanının genişlemesini sağlar */
+                            flex-grow: 1; 
                         }
 
                         .small-text {
@@ -38,11 +35,13 @@
                         }
                     </style>
 
-                    <a href="/Content/ContentByHeading/@item.HeadingId" class="nav-link">@item.HeadingName</a>
+                    <a href="/Content/ContentByHeading/@item.HeadingId" class="nav-link" >@item.HeadingName</a>
+                  
                     @* @(((DateTime)item.HeadingDate).ToString("dd-MMM-yyyy")) *@
                     <small class="small-text">1.7b</small>
                 </div>
             }
         </ul>
     </nav>
+    
 </div>

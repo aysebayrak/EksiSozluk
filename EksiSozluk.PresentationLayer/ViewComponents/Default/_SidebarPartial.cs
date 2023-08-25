@@ -12,7 +12,7 @@ namespace EksiSozluk.PresentationLayer.ViewComponents.Default
             _headingService = headingService;
         }
 
-        public IViewComponentResult Invoke(int categoryId = 1)
+        public IViewComponentResult Invoke(int categoryId=1)
         {
             var headings = _headingService.GetListByCategory(categoryId);
             return View(headings);

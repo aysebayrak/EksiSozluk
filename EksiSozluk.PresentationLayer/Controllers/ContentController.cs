@@ -1,5 +1,7 @@
 ﻿using EksiSozluk.BusinessLayer.Abstract;
+using EksiSozluk.DataAccessLayer.Concrete;
 using EksiSozluk.EntityLayer.Concrete;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EksiSozluk.PresentationLayer.Controllers
@@ -8,11 +10,13 @@ namespace EksiSozluk.PresentationLayer.Controllers
     {
         private readonly IContentService _contentService;
         private readonly IHttpContextAccessor _httpContextAccessor;
+        private readonly UserManager<AppUser> _userManager;
 
-        public ContentController(IContentService contentService, IHttpContextAccessor httpContextAccessor)
+        public ContentController(IContentService contentService, IHttpContextAccessor httpContextAccessor, UserManager<AppUser> userManager)
         {
             _contentService = contentService;
             _httpContextAccessor = httpContextAccessor;
+            _userManager = userManager;
         }
 
         public IActionResult Index()
@@ -28,20 +32,36 @@ namespace EksiSozluk.PresentationLayer.Controllers
             return View();
         }
 
-        [HttpPost]
-        public IActionResult AddContent(Content content)
-        {
 
-            int userid = Convert.ToInt32(HttpContext.Session.GetInt32("Id"));
+
+        [HttpPost]
+        public async Task<IActionResult> AddContent(Content content)
+        {
+            EksiSozlukContext context = new EksiSozlukContext();
+
+            var user = await _userManager.FindByNameAsync(User.Identity.Name);
+            if (user == null)
+            {
+                return BadRequest("Kullanıcı bulunamadı");
+            }
+
             int headingId = Convert.ToInt32(HttpContext.Session.GetInt32("HeadingId"));
-            content.ContentDate = DateTime.Parse(DateTime.Now.ToShortDateString());
-            content.AppUser.Id= userid;
+            content.ContentDate = DateTime.Now;
+
+
+            content.AppUser = new AppUser { Id = user.Id };
+
             content.ContentStatus = true;
             content.HeadingId = headingId;
-            _contentService.TInsert(content);
-            return Json(new { SONUÇ = true });
+
+            context.Contents.Add(content);
+            context.SaveChanges();
+
+            return NoContent();
         }
-  
+
+
+
         public IActionResult DeleteContent(int id)
         {
             var value = _contentService.TGetById(id);

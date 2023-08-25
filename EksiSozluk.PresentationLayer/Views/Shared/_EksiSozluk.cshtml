@@ -9,16 +9,20 @@
         </nav>
         @await Component.InvokeAsync("_NavbarPartial")
     </header>
-    <div class="container middle_page d-flex w-100">
-        @await Component.InvokeAsync("_SidebarPartial")
-       
-        <div class="Right-side ms-4">
+    <div class="container middle_page d-flex w-100" >
+     
+           @await Component.InvokeAsync("_SidebarPartial")
+      
+        <div class="Right-side ms-4" >
 
 
             @RenderBody()
-
+           
             @await Component.InvokeAsync("_FooterPartial")
         </div>
+      
+     
+
     </div>
     @RenderSection("Scripts", required:false)
     @await Component.InvokeAsync("_ScriptPartial")

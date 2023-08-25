@@ -4,7 +4,7 @@
     Layout = "~/Views/Shared/_EksiSozluk.cshtml";
     int i = 0;
 }
-@*src="https://bczl.meb.k12.tr/meb_iys_dosyalar/34/06/969693/resimler/2021_04/k_02102337_2118fbf0-51e6-477f-b6f7-175761b15217.jpg*@
+
 <div class="entry-side">
     <div class="reklam">
         <img src="~/EksiSözlük/img/aysebayrak.jpeg" 
@@ -82,6 +82,8 @@
                         <button id="addContentBtn" class="btn btn-primary">İçerik Ekle</button>
                     </div>
                 </div>
+               
+
             </div>
             <style>
                 .larger-text {
@@ -101,7 +103,7 @@
     </div>
 </div>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script>
+@*<script>
     $(document).ready(function () {
         $("#addContentBtn").click(function () {
             var contentTitle = $("#contentTitle").val(); 
@@ -111,6 +113,28 @@
                 url: "/Content/AddContent",
                 type: "POST",
                 data: { contentTitle: contentTitle },
+                success: function () {
+                    alert("İçerik başarıyla eklendi.");
+                },
+                error: function () {
+                    alert("İçerik eklenirken bir hata oluştu.");
+                }
+            });
+        });
+    });
+
+</script>*@
+
+
+<script>
+    $(document).ready(function () {
+        $("#addContentBtn").click(function () {
+            var contentTitle = $("#contentTitle").val();
+            $.ajax({
+                url: "/Content/AddContent",
+                type: "POST",
+                contentType: "application/json",
+                data: JSON.stringify({ ContentTitle: contentTitle }),
                 success: function () {
                     alert("İçerik başarıyla eklendi.");
                 },
