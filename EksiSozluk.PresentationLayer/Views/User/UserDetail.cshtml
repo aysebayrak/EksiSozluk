@@ -2,16 +2,13 @@
 @{
     ViewData["Title"] = "UserDetail";
     Layout = "~/Views/Shared/_EksiSozluk.cshtml";
-
+    string userTitle = ViewBag.UserContentCounts.ContainsKey(Model.UserName) && ViewBag.UserContentCounts[Model.UserName] >= 10 ? "Usta" : "Çaylak";
 }
 <div id="content" class="instapaper_body" role="main">
-
     <style>
-
         .menu {
             list-style: none display: block;
         }
-
             .menu li {
                 display: inline;
                 margin: 10px;
@@ -20,8 +17,6 @@
             }
 
     </style>
-
-
     @*  <img class="rounded-circle" src="" alt="">*@
     <section id="content-body">
         <div class="profile-top-container">
@@ -36,7 +31,8 @@
                 </div>
             </div>
             <ul>
-                <button type="button" class="btn btn-warning">@Model.Title</button>
+                @*<button type="button" class="btn btn-warning">@Model.Title</button>*@
+                <button type="button" class="btn btn-warning">@userTitle</button>
             </ul>
 
             <div id="badge-info-popup">
@@ -61,9 +57,6 @@
                     <img src="~/EksiSözlük/img/rozet.jpg" width="75" height="70"></img>
             </ul>
         </div>
-     @*   <ul class="menu">
-            <li> entry'ler </></li>
-        </ul>*@
         <button class="btn btn-primary" id="loadUserContents" data-userid="@Model.Id"> Entry'ler </button>
         <div id="user-content-list">
            
@@ -72,38 +65,6 @@
     </div>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-@*    <script>
-        $(document).ready(function () {
-        $("#loadUserContents").click(function () {
-        var id = $(this).data("userid");
-        $.ajax({
-        url: "/User/UserWriter",
-        data: { id: id },
-        type: "GET",
-        success: function (data) {
-        var userContents = JSON.parse(data);
-
-        var tableHtml = "<table><thead><tr><th>Content</th><th>Date</th></tr></thead><tbody>";
-       
-        for (var i = 0; i < userContents.length; i++) {     
-                        tableHtml += "<tr>";
-                        tableHtml += "<td>&nbsp;&nbsp;" + userContents[i].ContentTitle + "&nbsp;&nbsp;</td>";
-                        tableHtml += "<td>&nbsp;&nbsp;" + userContents[i].ContentDate + "&nbsp;&nbsp;</td>";
-                        tableHtml += "</tr>";
-                    }
-
-                    tableHtml += "</tbody></table>";
-                    $("#user-content-list").html(tableHtml);
-                }
-       
-            });
-           
-        });
-      
-    });
-</script>
-*@
-
 <script>
     $(document).ready(function () {
         $("#loadUserContents").click(function () {
@@ -127,7 +88,6 @@
                             tableHtml += "</tr>";
                         }
                     }
-
                     tableHtml += "</tbody></table>";
                     $("#user-content-list").html(tableHtml);
                 }

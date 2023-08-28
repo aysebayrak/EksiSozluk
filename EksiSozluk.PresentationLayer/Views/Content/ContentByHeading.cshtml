@@ -16,7 +16,7 @@
             
             @foreach(var item in Model)
             {
-                <input type="hidden" class="heading-id" value="@item.Heading.HeadingId" />
+                <input type="hidden" class="heading-id" value="@item.HeadingId" />
            
                 i++;
                 if(i == 1)
@@ -108,6 +108,7 @@
 </div>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
+
     $(document).ready(function () {
         $("#addContentBtn").click(function () {
             var contentTitle = $("#contentTitle").val();
@@ -127,7 +128,6 @@
             });
         });
     });
-
 </script>
 
 

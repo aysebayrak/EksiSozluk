@@ -50,8 +50,7 @@ namespace EksiSozluk.PresentationLayer.Controllers
             content.ContentDate = DateTime.Now;
 
 
-            //content.AppUser = new AppUser { Id = user.Id };
-            content.AppUser = user;
+            content.AppUser = new AppUser { Id = user.Id };
             content.ContentStatus = true;
             content.HeadingId = headingId;
 
