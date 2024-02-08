@@ -7,7 +7,7 @@ kullanıcıların kategorilere başlık, başlıklara yorum yapabildiği,
 admin tarafında kontrolleri sağladığımız ekşi sözluk klon web
 projesidir.
 
-**Kullandığım Teknolojiler:**
+**Kullandığım Teknolojiler:**                 
 ASP.NET Core 6.0, AzureDevops,                 
 TFS, Identity, Ajax, FluentValidation, MSSQL, Entity Framework                  
 Core Code First            
