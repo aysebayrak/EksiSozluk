@@ -1,7 +1,6 @@
 # EksiSozluk
 
-
-Proje arkadaşlarım ile birlikte geliştirdiğim veri tabanını Azure
+Veri tabanını Azure
 Devopsda tuttuğumuz, geliştirme sürecinde TFS kullandığımız,
 kullanıcıların kategorilere başlık, başlıklara yorum yapabildiği,
 admin tarafında kontrolleri sağladığımız ekşi sözluk klon web
